@@ -13,4 +13,5 @@ workspace = 4, persistent:true
 workspace = 5, persistent:true
 
 Primary trick -> Understand QML Rectangle and Layout
+
 <img width="1366" height="768" alt="20250817_20h46m59s_grim" src="https://github.com/user-attachments/assets/419b0952-a450-4bb3-9e26-37f5f776cae8" />
