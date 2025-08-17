@@ -10,7 +10,7 @@ Rectangle{
             verticalCenter: parent.verticalCenter
             right: timeBlock.Text.left
         }
-        text: UPower.displayDevice.percentage * 100 + "%"
+        text: Number(UPower.displayDevice.percentage * 100).toFixed(2) + "%"
         color: "#999999"
         Component.onCompleted: {
             parent.width = powerDisplay.contentWidth
